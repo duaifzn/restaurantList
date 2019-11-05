@@ -6,11 +6,10 @@
 
 ## 使用
 此專案需要安裝Express.js
-執行專案使用指令 npm run dev 
-             or npm run start
-"start": "node app.js",
-"dev": "nodemon app.js"
+執行專案使用指令 npm run dev .
+             or npm run start.
+"start": "node app.js".
+"dev": "nodemon app.js".
 
 ## 作者
-Authors
 duaifzn
