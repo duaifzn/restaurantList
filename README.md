@@ -6,10 +6,10 @@
 
 ## 使用
 此專案需要安裝Express.js
-執行專案使用指令 'npm run dev' or 'npm run start'
+執行專案使用指令 `npm run dev` or `npm run start`
 
 
-| Option | Description |
+| Command | Command Description |
 | ------:| -----------:|
 | start  | node app.js |
 | dev | nodemon app.js |
