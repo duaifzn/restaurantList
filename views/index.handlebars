@@ -43,7 +43,7 @@
           <div class="text-right m-1">
             <a class="btn btn-secondary " href="/restaurants/{{this.id}}">detail</a>
             <a class="btn btn-success" href="/restaurants/{{this.id}}/edit">edit</a>
-            <form action="/restaurants/{{this.id}}/delete" class='res-delete' method="POST">
+            <form action="/restaurants/{{this.id}}/delete?_method=DELETE" class='res-delete' method="POST">
               <button class="btn btn-danger" type="submit">delete</button>
             </form>
           </div>
