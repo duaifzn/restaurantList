@@ -17,7 +17,6 @@ db.once('open', () => {
     //console.log(jsonList.results[result].id)
     resList.create(
       {
-        id: jsonList.results[result].id,
         name: jsonList.results[result].name,
         name_en: jsonList.results[result].name_en,
         category: jsonList.results[result].category,

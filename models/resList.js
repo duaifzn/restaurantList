@@ -2,17 +2,12 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const resList = new Schema({
-  id: {
-    type: Number,
-    required: 'id is required'
-  },
   name: {
     type: String,
     required: true
   },
   name_en: {
-    type: String,
-    required: true
+    type: String
   },
   category: {
     type: String,
